@@ -21,9 +21,15 @@
     <ClCompile Include="ggT.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="Chiffren.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ggT.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Chiffren.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>
