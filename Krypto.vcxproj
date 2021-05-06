@@ -139,11 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BlumBlumShub.cpp" />
     <ClCompile Include="Chiffren.cpp" />
     <ClCompile Include="ggT.cpp" />
     <ClCompile Include="Krypto.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BlumBlumShub.h" />
     <ClInclude Include="Chiffren.h" />
     <ClInclude Include="ggT.h" />
   </ItemGroup>

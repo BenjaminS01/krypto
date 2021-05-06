@@ -4,6 +4,7 @@
 #include <iostream>
 #include "ggT.h"
 #include "Chiffren.h"
+#include "BlumBlumShub.h"
 
 int main()
 {
@@ -18,6 +19,7 @@ int main()
    std::cout << ggt;
    */
 
+    /*
     Chiffren chiffreObjekt = Chiffren();
 
     std::string text = chiffreObjekt.vigenere("diesisteinsatz", "key");
@@ -31,6 +33,11 @@ int main()
     std::cout << text2;
 
     // KOINZIDENZINDEX!!!
+
+    */
+
+    BlumBlumShub bbs = BlumBlumShub();
+    int i = bbs.generator(47, 67, 6);
 }
 
 
