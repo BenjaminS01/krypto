@@ -1,2 +1,7 @@
 ﻿  Krypto.cpp
+  RSA.cpp
+C:\Users\bswar\Desktop\Krypto\Krypto\Krypto\RSA.cpp(10,12): warning C4244: "Initialisierung": Konvertierung von "double" in "long", möglicher Datenverlust
+C:\Users\bswar\Desktop\Krypto\Krypto\Krypto\RSA.cpp(59,23): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+C:\Users\bswar\Desktop\Krypto\Krypto\Krypto\RSA.cpp(67,23): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+  Code wird generiert...
   Krypto.vcxproj -> C:\Users\bswar\Desktop\Krypto\Krypto\Debug\Krypto.exe

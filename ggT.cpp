@@ -47,5 +47,5 @@ int ggT::getggT(int m1, int m2)
         
     }
 
-    return a[i];
+    return y[i];
 }

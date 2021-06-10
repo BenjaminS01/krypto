@@ -5,15 +5,26 @@
 #include "ggT.h"
 #include "Chiffren.h"
 #include "BlumBlumShub.h"
+#include "RSA.h"
+
+#include <iostream>
+
+#include <bitset>
+#include <algorithm>
+#include <array>
+#include <iomanip>
+
+using namespace std;
+
 
 int main()
 {
     
-    /*
-
+    
+/*
     ggT ggtObjekt = ggT();
 
-   int ggt  = ggtObjekt.getggT(42, 93);
+   int ggt  = ggtObjekt.getggT(5, 264);
 
    std::cout << ggt;
    std::cout << ggt;
@@ -35,9 +46,25 @@ int main()
     // KOINZIDENZINDEX!!!
 
     */
-
+/*
     BlumBlumShub bbs = BlumBlumShub();
     int i = bbs.generator(47, 67, 6);
+    */
+/*
+    string plainText = "123456ABCD132536";
+    string key = "AABB09182736CCDD";
+    DES des(plainText, key);
+
+    des.cipher(des.getPlainText(), des.getKey64());
+    */
+
+   RSA rSaObjekt = RSA();
+
+ ///  rSaObjekt.verschluesseln(13, 23, 212);
+   int i = rSaObjekt.potenzieren(5, 212, 299);
+   int res = rSaObjekt.hashfunktion(5692, 144);
+
+   std::cout << "test";
 }
 
 
